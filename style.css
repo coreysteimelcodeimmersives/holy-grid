@@ -7,10 +7,10 @@
   grid-template-rows: repeat(6, 1fr);
   grid-template-areas: 
   "header header header header header header header header"
-  "nav article-1 article-1 article-1 article-1 article-1 ad-area ad-area"
-  "nav article-1 article-1 article-1 article-1 article-1 ad-area ad-area"
-  "nav article-2 article-2 article-2 article-2 article-2 ad-area ad-area"
-  "nav article-2 article-2 article-2 article-2 article-2 ad-area ad-area"
+  "nav article-1 article-1 article-1 article-1 article-1 adv-area adv-area"
+  "nav article-1 article-1 article-1 article-1 article-1 adv-area adv-area"
+  "nav article-2 article-2 article-2 article-2 article-2 adv-area adv-area"
+  "nav article-2 article-2 article-2 article-2 article-2 adv-area adv-area"
   "footer footer footer footer footer footer footer footer";
 }
 
@@ -44,8 +44,8 @@
   text-align: center;
 }
 
-#ad-area {
-  grid-area: ad-area;
+#adv-area {
+  grid-area: adv-area;
   background-color: blue;
   text-align: center;
 }
